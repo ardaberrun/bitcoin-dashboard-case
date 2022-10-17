@@ -1,0 +1,11 @@
+.counter__time-btn {
+  @apply w-6 h-6 border-none outline-none;
+}
+
+.counter__time-btn svg {
+  @apply w-full h-full;
+}
+
+.counter__time-btn svg g {
+  @apply fill-rose-400;
+}

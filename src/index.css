@@ -1,0 +1,19 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+  @apply
+  bg-indigo-100
+  font-inter;
+}
+
+.dashboard {
+  @apply
+  container mx-auto py-12 min-h-screen flex flex-col justify-around items-center gap-8 sm:gap-0;
+}
+
